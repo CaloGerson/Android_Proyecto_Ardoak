@@ -40,7 +40,6 @@ public class CrearUsuarioFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         navController = Navigation.findNavController(view);
         name = view.findViewById(R.id.inputName);
-
         correo = view.findViewById(R.id.inputCorreo);
         password1 = view.findViewById(R.id.inputPassword1);
         password2 = view.findViewById(R.id.inputPassword2);
