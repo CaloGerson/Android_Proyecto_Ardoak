@@ -10,7 +10,7 @@ import androidx.room.RoomDatabase;
 import androidx.room.TypeConverters;
 
 
-@Database(entities = {Usuario.class, Vino.class}, version = 4)
+@Database(entities = {Usuario.class, Vino.class}, version = 5)
 @TypeConverters(Converters.class)
 public abstract class AppDataBase extends RoomDatabase {
     public abstract UsuariosDao usuariosDao();

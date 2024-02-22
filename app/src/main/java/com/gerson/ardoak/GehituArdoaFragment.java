@@ -38,6 +38,7 @@ import java.util.Map;
 public class GehituArdoaFragment extends Fragment {
 
      ImageView previewImageView;
+     Button getButtonGoBack;
      Button btnSelectImage;
      TextView messageTextView;
      EditText editTextIzena, editTextOrigen, editTextTipo, editTextPrecio;
@@ -108,6 +109,13 @@ public class GehituArdoaFragment extends Fragment {
         editTextPrecio = view.findViewById(R.id.gehituardoa_editTexPrecio);
         buttonGoBack = view.findViewById(R.id.buttonGoBack);
         buttonSaveVino = view.findViewById(R.id.buttonSaveVino);
+        buttonGoBack = view.findViewById(R.id.buttonGoBack);
+        buttonGoBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                navController.navigate(R.id.action_gehituArdoaFragment_to_listaDeVinosFragment);
+            }
+        });
         vinosDao = AppDataBase.obtainInstance(requireContext()).vinosDao();
         //---------------
         previewImageView = (ImageView) view.findViewById(R.id.previewImageView);
