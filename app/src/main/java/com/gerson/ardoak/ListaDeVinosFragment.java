@@ -38,7 +38,6 @@ public class ListaDeVinosFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_lista_de_vinos, container, false);
         listaVinos= new ArrayList<>();
         vinosDao = AppDataBase.obtainInstance(requireContext()).vinosDao();
-
         recyclerVinos = view.findViewById(R.id.recyclerId);
         recyclerVinos.setLayoutManager(new LinearLayoutManager(requireContext()));
 
