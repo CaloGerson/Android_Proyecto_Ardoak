@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Home fragment text -->
+    <string name="home_monbre">Name</string>
+    <string name="home_password">Password</string>
+    <string name="home_login">Enter</string>
+    <string name="home_creracuenta">Create Account</string>
+    <!-- Creare user fragment text -->
+    <string name="crearUsuario_nombre">Name</string>
+    <string name="crearUsuario_correo">mail</string>
+    <string name="crearUsuario_password">Password</string>
+    <string name="crearUsuario_crearcuenta">Create Account</string>
+    <string name="todo">ALL</string>
+    <string name="textview">TextView</string>
+    <string name="gehitu">Gehitu</string>
+    <string name="seleccionar_imagen">Select Image</string>
+    <string name="itzuli">Come back</string>
+    <string name="gorde">Save</string>
+    <string name="origen">Jatorria</string>
+    <string name="prceio">Price</string>
+    <string name="izena">Izena</string>
+    <string name="tipo">Mota</string>
+    <string name="selecciona_una_imagen">Select Image</string>
+    <string name="app_name">Wines</string>
+</resources>

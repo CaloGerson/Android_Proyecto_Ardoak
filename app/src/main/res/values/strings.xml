@@ -1,0 +1,28 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Home fragment text -->
+    <string name="home_monbre">Nombre</string>
+    <string name="home_password">Contraseña</string>
+    <string name="home_login">Entrar</string>
+    <string name="home_creracuenta">Crear Cuenta</string>
+    <!-- Creare user fragment text -->
+    <string name="crearUsuario_nombre">Nombre</string>
+    <string name="crearUsuario_correo">Correo</string>
+    <string name="crearUsuario_password">Password</string>
+    <string name="crearUsuario_crearcuenta">Crear Cuenta</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="gehitu">Gehitu</string>
+    <string name="seleccionar_imagen">Seleccionar Imagen</string>
+    <string name="itzuli">Itzuli</string>
+    <string name="gorde">Gorde</string>
+    <string name="origen">Origen</string>
+    <string name="prceio">Prceio</string>
+    <string name="izena">Izena</string>
+    <string name="tipo">Tipo</string>
+    <string name="selecciona_una_imagen">Selecciona una imagen</string>
+    <string name="app_name">Ardoak</string>
+
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.gerson.ardoak.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_listaDeVinosFragment"
+            app:destination="@id/listaDeVinosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_crearUsuarioFragment"
+            app:destination="@id/crearUsuarioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaDeVinosFragment"
+        android:name="com.gerson.ardoak.ListaDeVinosFragment"
+        android:label="fragment_lista_de_vinos"
+        tools:layout="@layout/fragment_lista_de_vinos" >
+        <action
+            android:id="@+id/action_listaDeVinosFragment_to_gehituArdoaFragment"
+            app:destination="@id/gehituArdoaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearUsuarioFragment"
+        android:name="com.gerson.ardoak.CrearUsuarioFragment"
+        android:label="fragment_crear_usuario"
+        tools:layout="@layout/fragment_crear_usuario" >
+        <action
+            android:id="@+id/action_crearUsuarioFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gehituArdoaFragment"
+        android:name="com.gerson.ardoak.GehituArdoaFragment"
+        android:label="fragment_gehitu_ardoa"
+        tools:layout="@layout/fragment_gehitu_ardoa" >
+        <action
+            android:id="@+id/action_gehituArdoaFragment_to_listaDeVinosFragment"
+            app:destination="@id/listaDeVinosFragment" />
+    </fragment>
+</navigation>
